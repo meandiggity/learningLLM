@@ -17,14 +17,14 @@
 
 6. config docker desktop
 
-    Open: a Docker Desktop for Windows App. And Configuration > Resources > WSL integration
-    Change disable: Enable integration with my default WSL distro
+    Open: a Docker Desktop for Windows App. And Configuration > Resources > WSL integration  
+    Change disable: Enable integration with my default WSL distro  
     Change enable: Enable integration with additional distros > Ubuntu22.04
 
 7. Setting a container
 
-$ cp docker/.env.dev docker/.env
-edit docker/.env
+    $ cp docker/.env.dev docker/.env  
+    edit docker/.env  
     workspace=your working dir
 
 8. Start Container
